@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bgimage{
+    width: 300px;
+    height: 300px;
+}
+
+.maincontainer{
+    width: 100%;
+   
+}
+
+.bgimage{
+    width: 100%;
+    height: 200px;
+}
+.lastbackground{
+    width: 100%;
+    background-color: rgba(19, 21, 34, 0.986);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerContainer{
+    width: 100%;
+    background-color: rgb(58, 58, 63);
+    border-radius: 20px;
+    margin-top: -50px;
+    max-width: 1000px;
+    border: 1px solid red;
+    
+}
+
+.personalInfor{
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgb(36, 35, 44);
+   
+}
+
+.personal-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagediv{
+    border: 7px solid rgb(21, 23, 31);
+    width: 100px;
+    border-radius: 12px;
+    background-color: rgb(21, 23, 31);
+    margin-left: 20px;
+    margin-top: -20px;
+
+}
+
+.myimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.info{
+    width: 25%;
+    
+    margin: 10px;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.active{
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    font-size: 0.5rem;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+
+.ullinks{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.ullinks li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.social{
+    background-color: transparent;
+    color: rgb(233, 232, 232);
+    font-size: 1.3rem;
+
+}
+.social:hover{
+    color: rgb(201, 70, 70);
+}
+
+
+.headingindetail{
+    font-size: 0.7rem;
+    color: rgba(170, 171, 172, 0.795);
+    margin: 5px 5px ;
+    
+    
+}
+.detal{
+    font-size: 0.8rem;
+    color: rgb(226, 226, 226);
+    margin: 5px 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.detailbox{
+   
+    width: 100%;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.skils{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(36, 35, 44);
+    padding: 30px 0px;
+    
+}
+.skillheading{
+    display: flex;
+    flex-direction: row;
+  
+}
+.skillicons{
+    color: orange;
+    font-size: 1.5rem;
+    padding: 4px 10px;
+}
+
+.skillspara{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 7px 6px;
+
+}
+
+
+.skilbox{
+    width: 150px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(51, 59, 73);
+    margin: 10px;
+}
+
+
+.skilbox:hover{
+    background-color: rgb(109, 92, 124);
+}
+
+.skilimage{
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.skilltitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+.educationbox{
+    border: 1px solid yellow;
+    padding: 10px;
+    width: 100%;
+    max-width: 700px;
+    
+    margin: 10px 0px;
+    margin-left: 60px;
+}
+
+.edutitle{
+    color: white;
+    margin: 10px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.edusincs{
+    color: rgb(155, 192, 131);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+
+.edupara{
+    margin: 10px 0px;
+    margin-left: 10px;
+    color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+.projectboxCont{
+    border: 1px solid rgb(13, 139, 241);
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+.projectboxCont:hover{
+    opacity: 1;
+}
+
+.projectImage{
+    width: 300px;
+}
+
+.titlediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 104, 104);
+    padding: 10px 0px;
+    
+}
+
+.projectTitle{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+.lastprojectsec{
+   display: flex;
+   flex-direction: row;
+    justify-content: center ;
+     margin: 20px 0px;
+     width: 100%;
+     
+}
+
+
+.samestyles{
+    display: flex;
+     flex-direction: row;
+      justify-content: center;
+
+}
+.nameinfo{
+    text-align: left;
+    width: 100%;
+}
+
+.underdiv{
+    display: flex;
+     flex-direction: row;
+}
+
+.sameDetails{
+    display: flex;
+      flex-direction: column;
+       margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .lastprojectsec{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+        width: 100%;
+    }
+    .educationbox{
+        max-width: 300px;
+        margin: 0px;
+    }
+    .samestyles{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skils{
+        width: 80%;
+        
+    }
+    .innerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .personal-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .personalInfor{
+        width: 80%;
+        margin: -20px;
+    }
+    .nameinfo{
+        text-align: center;
+        width: 100%;
+    }
+    .name{
+            font-size: 0.7rem;
+            text-align: center;
+    }
+    .underdiv{
+        flex-direction: column;
+        margin: 10px 0px;
+        
+    }
+    .educationbox{
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    .projectboxCont{
+        width: 200px;
+    }
+    .projectImage{
+        width: 100%;
+    }
+}
